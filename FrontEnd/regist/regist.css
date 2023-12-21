@@ -1,0 +1,57 @@
+body{
+    background-image: url(../assets/гаара.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    background-size: cover;
+}
+
+.reg-container{
+    margin-top: 100px;
+    background: rgb(250, 250, 250, 0.2);
+    border: 0.1px solid #969595;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px 3px rgba(49, 49, 49, 0.3), -2px -2px 15px 3px rgba(255, 255, 255, 0.3);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-prev-text{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.reg-inp{
+    margin-top: 35px;
+    height: 35px;
+    width: 350px;
+    border-radius: 17.5px;
+    border: none;
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+#reg-continue{
+    margin-top: 70px;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+}
+
+.reg-to--log{
+    font-size: 18px;
+    margin-top: 15px;
+    color:rgb(255, 255, 255);
+}
+
+.reg-to--log:hover{
+    color:rgb(45, 112, 245);
+}
